@@ -24,6 +24,12 @@ $ yarn dev
 
 Go to http://app.hasura-example.localhost/
 
+## Open Hasura console
+
+```shell
+$ npx hasura console --admin-secret=myadminsecretkey
+```
+
 ## Stop containers
 
 ```shell
@@ -46,6 +52,8 @@ app.get("/auth", (req, res) => {
   }
 });
 ```
+
+![](permission.png)
 
 *views/index.ejs*
 
