@@ -37,8 +37,6 @@ app.use(
 // Session-persisted message middleware
 
 app.use(function(req, res, next) {
-  console.log("req.session.error", req.session.error);
-
   var err = req.session.error;
   var msg = req.session.success;
   delete req.session.error;
