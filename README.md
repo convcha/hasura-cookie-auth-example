@@ -12,7 +12,7 @@
 ```shell
 $ git clone https://github.com/devilune/hasura-cookie-auth-example.git
 $ cd hasura-cookie-auth-example
-$ docker-compose -p hasura up -d
+$ docker-compose -p hasura up -d # After completing this command, it takes about 2 minutes to insert the seed data
 $ yarn
 ```
 
