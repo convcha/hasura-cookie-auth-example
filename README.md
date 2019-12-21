@@ -9,7 +9,7 @@
 
 ## Setup
 
-```
+```shell
 $ git clone https://github.com/devilune/hasura-cookie-auth-example.git
 $ cd hasura-cookie-auth-example
 $ docker-compose -p hasura up -d
@@ -18,11 +18,17 @@ $ yarn
 
 ## Run
 
-```
+```shell
 $ yarn dev
 ```
 
 Go to http://app.hasura-example.localhost/
+
+## Stop containers
+
+```shell
+$ docker-compose -p hasura down
+```
 
 ## How
 
