@@ -32,7 +32,7 @@ $ docker-compose -p hasura down
 
 ## How
 
-`app.js`
+*app.js*
 
 ```js
 app.get("/auth", (req, res) => {
@@ -47,7 +47,7 @@ app.get("/auth", (req, res) => {
 });
 ```
 
-`views/index.ejs`
+*views/index.ejs*
 
 ```js
 const res = await fetch(
@@ -63,7 +63,7 @@ const res = await fetch(
 );
 ```
 
-`docker-compose.yaml`
+*docker-compose.yaml*
 
 ```yaml
 environment:
