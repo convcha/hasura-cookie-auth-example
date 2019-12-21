@@ -1,0 +1,73 @@
+- args:
+    permission:
+      check: {}
+      columns:
+      - age
+      - id
+      - name
+      filter: {}
+      localPresets:
+      - key: ""
+        value: ""
+      set: {}
+    role: user
+    table:
+      name: user
+      schema: public
+  type: create_select_permission
+- args:
+    permission:
+      check: {}
+      columns:
+      - age
+      - id
+      - name
+      filter: {}
+      localPresets:
+      - key: ""
+        value: ""
+      set: {}
+    role: user
+    table:
+      name: user
+      schema: public
+  type: create_update_permission
+- args:
+    permission:
+      check: {}
+      columns:
+      - age
+      - id
+      - name
+      filter: {}
+      localPresets:
+      - key: ""
+        value: ""
+      set: {}
+    role: user
+    table:
+      name: user
+      schema: public
+  type: create_delete_permission
+- args:
+    role: user
+    table:
+      name: user
+      schema: public
+  type: drop_insert_permission
+- args:
+    permission:
+      check: {}
+      columns:
+      - age
+      - id
+      - name
+      localPresets:
+      - key: ""
+        value: ""
+      set: {}
+    role: user
+    table:
+      name: user
+      schema: public
+  type: create_insert_permission

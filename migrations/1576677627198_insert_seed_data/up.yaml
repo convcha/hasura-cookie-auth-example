@@ -1,0 +1,7 @@
+- args:
+    cascade: false
+    sql: |-
+      INSERT INTO "user" (name, age) VALUES ('Marissa', 30);
+      INSERT INTO "user" (name, age) VALUES ('John', 18);
+      INSERT INTO "user" (name, age) VALUES ('Kim', 49);
+  type: run_sql
